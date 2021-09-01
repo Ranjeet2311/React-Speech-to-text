@@ -1,8 +1,6 @@
 import React from "react";
 import "./Transcript.css";
-import SpeechRecognition, {
-  useSpeechRecognition,
-} from "react-speech-recognition";
+import { useSpeechRecognition } from "react-speech-recognition";
 import Heading from "./Heading";
 
 function Transcript() {

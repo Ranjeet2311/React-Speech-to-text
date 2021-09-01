@@ -1,7 +1,5 @@
 import React from "react";
-import SpeechRecognition, {
-  useSpeechRecognition,
-} from "react-speech-recognition";
+import SpeechRecognition from "react-speech-recognition";
 import "./Speaking.css";
 
 function Speaking() {
