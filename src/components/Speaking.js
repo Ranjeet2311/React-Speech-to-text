@@ -7,7 +7,6 @@ function Speaking() {
     <div className="buttons">
       <button
         className="btn1 btn fas fa-microphone-alt"
-        // onClick={SpeechRecognition.startListening}
         onClick={SpeechRecognition.startListening({ continuous: true })}
       ></button>
       <button
